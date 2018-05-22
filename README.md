@@ -6,5 +6,12 @@ Start of image
 ![ibm](https://www.ibm.com/i/d/va924g7?12355646)
 End of image
 Now with img tags
-<img src="https://www.ibm.com/i/d/va924g7" />
+<img id="chocolate" src="https://www.ibm.com/i/d/va924g7" />
 End of img tags
+
+<script language="javascript" type="text/javascript">
+    var d = new Date(); 
+    document.getElementById("chocolate").src = 
+      "http://www.kitco.com/images/live/gold.gif?ver=" + 
+       d.getTime();
+</script>
