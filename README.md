@@ -5,3 +5,6 @@ IBM Logo:
 Start of image
 ![ibm](https://www.ibm.com/i/d/va924g7?12355646)
 End of image
+Now with img tags
+<img src="https://www.ibm.com/i/d/va924g7" />
+End of img tags
